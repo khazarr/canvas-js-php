@@ -1,0 +1,29 @@
+html,
+body {
+  margin: 0;
+}
+
+#draw{
+  border: 1px black solid;
+}
+
+.title{
+  background: #ddd;
+  padding: 1em;
+  text-align: center;
+}
+
+.subtitle{
+  padding: 0.2em;
+  text-align: center;
+  background: #eee;
+}
+#draw{
+  width: 400px;
+  height: 300px;
+}
+
+.main-canvas{
+  text-align: center;
+  margin: 20px 0px;
+}
