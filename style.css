@@ -5,6 +5,8 @@ body {
 
 #draw{
   border: 1px black solid;
+  width: 330px;
+  height: 250px;
 }
 
 .title{
@@ -18,12 +20,27 @@ body {
   text-align: center;
   background: #eee;
 }
-#draw{
-  width: 400px;
-  height: 300px;
+#out1{
+  border: 1px black solid;
+  width: 330px;
+  height: 250px;
+}
+#out2{
+  border: 1px black solid;
+  width: 330px;
+  height: 250px;
+}
+#out3{
+  border: 1px black solid;
+  width: 330px;
+  height: 250px;
 }
 
 .main-canvas{
+  text-align: center;
+  margin: 20px 0px;
+}
+.out-canvas{
   text-align: center;
   margin: 20px 0px;
 }

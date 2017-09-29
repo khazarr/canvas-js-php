@@ -5,10 +5,13 @@
   <meta charset="UTF-8">
   <title>HTML5 Canvas</title>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
 </head>
 
 <body>
-  <div class="container">
+  <div class="container-fluid">
     <div class="row title">
       <h1>Canvas Image Processing Playground</h1>
     </div>
@@ -18,11 +21,28 @@
     <div class="row main-canvas">
       <canvas id="draw"></canvas>
     </div>
+    <div class="row subtitle">
+      <h3>Output here</h3>
+    </div>
+    <div class="row out-canvas">
+      <div class="col-sm-4" class="canvas1">
+        <h4>Grayscale</h4>
+        <canvas id="out1"></canvas>
+      </div>
+      <div class="col-sm-4" class="canvas2">
+        <h4>Colors Inverted</h4>
+        <canvas id="out2"></canvas>
+      </div>
+      <div class="col-sm-4" class="canvas3">
+        <h4>Thereshold</h4>
+        <canvas id="out3"></canvas>
+      </div>
+    </div>
 
   </div>
+
   <script src="main.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
